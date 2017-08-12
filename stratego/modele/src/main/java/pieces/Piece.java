@@ -1,10 +1,13 @@
 package pieces;
 
+import strategies.strategieDep.AbDeplacement;
+
 /**
  * Classe Abstraite re
  */
 public abstract class Piece {
     private  int force;
+    private AbDeplacement deplacement;
 
     public Piece(int force) {
         this.force = force;
@@ -17,6 +20,8 @@ public abstract class Piece {
     public void setForce(int force) {
         this.force = force;
     }
+
+
 }
 
 
