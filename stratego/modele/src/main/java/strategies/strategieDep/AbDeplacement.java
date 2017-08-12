@@ -27,7 +27,7 @@ public abstract class AbDeplacement {
      * @param xDest int
      * @param yDest int
      * @return boolen Boolean
-     * @throws DeplacementNonAutoriseException
+     * @throws DeplacementNonAutoriseException DeplacementNonAutoriseException
      */
    abstract boolean autoriser(int xS,int yS,int xDest,int yDest) throws DeplacementNonAutoriseException;
 
@@ -49,9 +49,9 @@ public abstract class AbDeplacement {
        plateau[xDest][yDest] = tmp;
 
        return plateau;
-   }
+     }
 
-    /**
+     /**
      * Indique si le deplacement
      * est entrain de s'effectuer sur la diagonale
      *

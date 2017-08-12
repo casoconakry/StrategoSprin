@@ -7,6 +7,7 @@ public class ConfigJeu {
 
   // Force des différentes pieces
 
+  public static final int BOMBE_F = 50;
   public static final int MARECHAL_F = 10;
   public static final int GENERAL_F = 9;
   public static final int COLONEL_F = 8;
@@ -18,6 +19,8 @@ public class ConfigJeu {
   public static final int ECLAIREUR_F=2;
   public static final int ESPION_F=1;
   public static final int DRAPEAU_F=0;
+  public static final int LAC_F = -1;
+  public static final int NEUTRE_F = -2;
 
   // Nombre de Pieces par Jours
 
